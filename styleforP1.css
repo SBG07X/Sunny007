@@ -83,7 +83,7 @@ a {
     line-height: 0;
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 475px){
     .logo {
         margin-bottom:1.5rem;
         
@@ -114,7 +114,9 @@ a {
     }
     
     
+
 }
+
 
 
 
@@ -180,6 +182,11 @@ html {
 .item {
     padding: 0 30 0 30px;
     text-align: center;
+    margin-top: 0;
+    margin-left: 3%;
+    padding: 0 30 0 30px;
+    
+    
 }
 button {
     padding: 20px 50px;
@@ -226,4 +233,5 @@ button {
 img {
     border-radius: 50%;
 }
+
 
