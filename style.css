@@ -14,6 +14,7 @@ body {
     color: #fff;
     line-height: 1.6;
 }
+
 h1{
     text-align: center;
     font-family: "Oswald", sans;
@@ -43,6 +44,8 @@ h3 {
     background-size: cover;
 }
 .item {
+    margin-top: 0;
+    margin-left: 3%;
     padding: 0 30 0 30px;
     text-align: center;
 }
@@ -99,7 +102,9 @@ h3 {
 
 
 }
+@media screen and (max-width: 360px){
 
+}
 
 @media (min-width: 992px) { 
     .item {
@@ -115,7 +120,7 @@ h3 {
 p {
     user-select: none;
     color: #fff;
-    font-size: 100%;
+    font-size: large;
     
 }
 img {
